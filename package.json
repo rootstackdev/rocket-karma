@@ -1,0 +1,36 @@
+{
+  "name": "karma",
+  "version": "1.0.0",
+  "description": "A Rocket Chat bot to allow users to reward each other with kudos.",
+  "repository": "https://gitlab.com/rootstack/bot-on-air/karma.git",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "start": "npm run build && node dist/main.js"
+  },
+  "contributors": [
+    {
+      "name": "Luis Lau",
+      "email": "llau@rootstack.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^6.11.8",
+    "@nestjs/core": "^6.11.8",
+    "@nestjs/mongoose": "^6.3.1",
+    "@nestjs/platform-express": "^6.11.8",
+    "@rocket.chat/sdk": "^0.2.9-2",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.2",
+    "handlebars": "^4.7.3",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.7.3",
+    "@types/node": "^13.7.6",
+    "typescript": "^3.8.2"
+  }
+}
