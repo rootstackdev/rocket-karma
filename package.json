@@ -23,7 +23,7 @@
     "@rocket.chat/sdk": "^0.2.9-2",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.2",
-    "handlebars": "^4.7.3",
+    "handlebars": "^4.7.7",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.4"
