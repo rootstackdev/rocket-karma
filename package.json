@@ -19,7 +19,7 @@
     "@nestjs/common": "^6.11.8",
     "@nestjs/core": "^6.11.8",
     "@nestjs/mongoose": "^6.3.1",
-    "@nestjs/platform-express": "^6.11.8",
+    "@nestjs/platform-express": "^9.2.1",
     "@rocket.chat/sdk": "^0.2.9-2",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.2",
